@@ -15,7 +15,7 @@ dd {
     font-weight: bold;
 }
 
-.wrapear {
+.wraper {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
@@ -60,4 +60,18 @@ button:focus {
 
 .p-1 {
     padding: 1px;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+input{
+    display: block;
+    margin: 5px;
 }
